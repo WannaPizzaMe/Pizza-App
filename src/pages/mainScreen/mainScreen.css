@@ -1,0 +1,17 @@
+.mainScreen_container {
+  display: grid;
+  grid-template-columns: 11% 78% 11%;
+  grid-template-rows: 10% 37% 53%;
+}
+
+.mainScreen_img {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
