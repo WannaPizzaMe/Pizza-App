@@ -1,0 +1,22 @@
+.product-list-container {
+  display: grid;
+  font-size: 1.2rem;
+  color: white;
+  background: grey;
+  border: none;
+  padding: 20px;
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+  width: -100px;
+  font-family: "adobe-clean", sans-serif;
+}
+
+.product-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  margin: 1em 0;
+}
