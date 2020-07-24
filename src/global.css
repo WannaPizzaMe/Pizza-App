@@ -26,6 +26,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .fullWidth {
-  width: vw;
+  width: 100vw;
   height: auto;
 }
