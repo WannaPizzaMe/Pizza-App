@@ -1,0 +1,40 @@
+.x {
+  display: flex;
+  background-color: #000;
+}
+
+.productTypes {
+  display: flex;
+  border: none;
+  justify-content: space-around;
+}
+
+.productTypes_button {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+.selectedItem::after {
+  content: "";
+  width: 24px;
+  border-bottom: solid 3px #fff;
+  position: absolute;
+  top: 150%;
+  right: 20%;
+}
+
+.caption {
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  margin-top: 10px;
+  position: relative;
+}
+
+.foodLink {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+}
