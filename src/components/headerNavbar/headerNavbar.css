@@ -1,0 +1,24 @@
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.headNav {
+  display: grid;
+  grid-template-columns: 16% 84%;
+  background: #171a1f;
+}
+
+.headNav_img {
+  grid-column: 1 / 2;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.headNav-font {
+  grid-column: 2 / 3;
+  text-align: center;
+  font-size: 1rem;
+}
