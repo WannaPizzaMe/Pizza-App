@@ -1,0 +1,14 @@
+/* Main Page */
+.location {
+  display: grid;
+  grid-template-rows: 62px 1fr;
+}
+.nav {
+  grid-row-start: 1 / 2;
+}
+.map {
+  grid-row-start: 2 / 3;
+ 
+}
+
+
