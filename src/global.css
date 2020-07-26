@@ -27,5 +27,8 @@ textarea {
 
 .fullWidth {
   width: 100vw;
-  height: auto;
+}
+
+.fullHeight {
+  height: 100vh;
 }

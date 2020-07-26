@@ -1,0 +1,92 @@
+/* Main Page */
+
+.welcome {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5fr 7fr 4fr;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(svg/joseph-gonzalez-176749-unsplash.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Sections */
+
+.sectionWelcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.enterpriseData {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.enterpriseData > img {
+  margin-top: 30px;
+}
+
+.signIn {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+
+.signInAlternative {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+}
+
+/* Paragraph styling */
+
+.small {
+  font-size: 0.625rem;
+}
+.grey {
+  color: #ccc;
+}
+.legend {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+.underlined {
+  text-decoration: underline;
+}
+
+/* Sign in Form */
+
+/* Button styling */
+.btnSignIn {
+  width: 220px;
+  height: 38px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.btnSignIn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.signInForm > label {
+  text-transform: capitalize;
+  font-size: 0.875rem;
+}
+.signInForm > h2 {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.signInForm > input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+}
