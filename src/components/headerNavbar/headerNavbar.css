@@ -1,13 +1,14 @@
-header {
+/* header {
   overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
-}
+} */
 .headNav {
   display: grid;
   grid-template-columns: 16% 84%;
   background: #171a1f;
+  align-content: center;
 }
 
 .headNav_img {
