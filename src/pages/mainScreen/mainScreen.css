@@ -1,17 +1,29 @@
-.mainScreen_container {
+.grid_container {
   display: grid;
-  grid-template-columns: 11% 78% 11%;
-  grid-template-rows: 10% 37% 53%;
+  grid-template-columns: 10.55% 78.9% 10.55%;
+  grid-template-rows: 9.6875% 37.5% 14.84375% 37.96875%;
 }
 
-.mainScreen_img {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.grid_container-item1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
 }
 
-img {
-  width: 100%;
+.grid_container-item2-img {
+  width: 320px;
   height: auto;
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+
+.grid_container-item3 {
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  background: #171a1f;
+}
+
+.grid_container-item4 {
+  grid-column: 1 / 4;
+  grid-row: 4 / 5;
+  background: #171a1f;
 }

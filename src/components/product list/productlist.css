@@ -1,23 +1,32 @@
 .product-list-container {
   display: grid;
   grid-template-rows: ;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
-  background: grey;
+  background: transparent;
   border: none;
   padding: 20px;
   list-style-type: none;
   margin: 0;
   text-align: left;
-  width: -100px;
+  /* width: -100px; */
   font-family: Roboto;
 }
 
 .product-list {
   list-style-type: none;
   text-align: left;
+  padding: 0;
 }
 
-li {
+/* li {
   margin: 1em 0;
+} */
+.active {
+  border-left: white 0.125rem solid;
+  padding-left: 0.4rem;
+}
+
+.list-group-item {
+  padding-left: 0.4rem;
 }

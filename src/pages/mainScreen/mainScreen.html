@@ -1,9 +1,74 @@
-<div class="mainScreen_container fullWidth">
-  <header>
-    <!-- navbar -->
+<div class="grid_container fullWidth">
+  <!-- Headerbereich grid column 1/4 & grid row 1/2-->
+  <header class="grid_container-item1 headNav fullWidth">
+    <div class="headNav_img">
+      <img src="../../assets/ic_dehaze_24px.svg" alt="" />
+    </div>
+    <h1 class="headNav-font">WannaPizzaMe</h1>
   </header>
-  <div class="mainScreen_img">
-    <img src="../../assets/pizza-img.png" alt="" />
+  <!-- Pizza-img  grid column 1/4 & grid row 2/3-->
+  <img
+    class="grid_container-item2-img"
+    src="../../assets/pizza-img.png"
+    alt="Pizza"
+  />
+  <div class="grid_container-item3">
+    <div class="x fullWidth">
+      <nav class="productTypes">
+        <figure class="productTypes_button">
+          <a class="foodLink" href="">
+            <img
+              src="../../components/productTypeChoice/svg/ic_local_pizza_24px.svg"
+              alt="Slice of Pizza"
+            />
+            <figcaption class="caption selectedItem">Pizza</figcaption></a
+          >
+        </figure>
+
+        <figure class="productTypes_button">
+          <a class="foodLink" href="">
+            <img
+              src="../../components/productTypeChoice/svg/ic_local_dining_24px.svg"
+              alt="Fork and knife restaurant symbol"
+            />
+            <figcaption class="caption">Snack</figcaption></a
+          >
+        </figure>
+
+        <figure class="productTypes_button">
+          <a class="foodLink" href="">
+            <img
+              src="../../components/productTypeChoice/svg/ic_local_cafe_24px.svg"
+              alt="Cup of coffee"
+            />
+            <figcaption class="caption">Coffee</figcaption></a
+          >
+        </figure>
+
+        <figure class="productTypes_button">
+          <a class="foodLink" href="">
+            <img
+              src="../../components/productTypeChoice/svg/ic_local_bar_24px.svg"
+              alt="Glass of alcohol"
+            />
+            <figcaption class="caption">Alcohol</figcaption></a
+          >
+        </figure>
+      </nav>
+    </div>
   </div>
-  <main></main>
+  <div class="grid_container-item4">
+    <div class="product-list-container fullWidth">
+      <ul class="product-list">
+        <li class="list-group-item active">The Original: Neapolitan</li>
+        <li class="list-group-item">California Style</li>
+        <li class="list-group-item">Chicago Deep Dish (and Stuffed)</li>
+        <li class="list-group-item">Chicago Thin Crust</li>
+        <li class="list-group-item">Detroit Style</li>
+        <li class="list-group-item">New England Greek</li>
+        <li class="list-group-item">New York Thin Crust</li>
+        <li class="list-group-item">St. Louis Style</li>
+      </ul>
+    </div>
+  </div>
 </div>
