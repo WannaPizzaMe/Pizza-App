@@ -3,4 +3,4 @@ import paymentPage from "./paymentPage.html";
 
 export default { title: "Pages/PaymentPage" };
 
-export const paymentScreen = () => paymentPage;
+export const giveMeMoney = () => paymentPage;
