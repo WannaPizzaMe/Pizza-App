@@ -1,0 +1,68 @@
+.gridcontainer_paymentPage {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 9.6875% 37.5% 14.84375% 37.96875%;
+  background-color: black;
+  font: Roboto, Regular;
+}
+
+.headnav {
+  grid-row: 1 / 4;
+  grid-column: 1 / 2;
+  place-self: center;
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background-color: black;
+}
+
+.item2 {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  align-self: center;
+  background-color: black;
+}
+
+.bread {
+  width: auto;
+  height: fit-content;
+  object-fit: cover;
+}
+
+.billTotal {
+  position: absolute;
+  object-position: center;
+}
+.item4 {
+  background-color: black;
+  grid-row: 4 / 5;
+  grid-column: 1 / 4;
+}
+
+.item5 {
+  display: grid;
+  grid-template-rows: 4 / 5;
+  font-size: 1rem;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 20px;
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+  font-family: Roboto;
+}
+
+.btn {
+  border-radius: 12px;
+  background-color: grey;
+  font-size: medium;
+}
+
+.paymentOption {
+  color: white;
+  background-color: grey;
+  font-family: Roboto;
+}
